@@ -1,5 +1,6 @@
 
-<h1 align="center">⛅ React Weather Forecast</h1>
+
+<h1 align="center">⛅ React Weather Forecast (back-end)</h1>
 
 - [English documentation](#english-documentation)
 - [Documentação em português](#documentação-em-português)
@@ -9,13 +10,14 @@ ____
 ## 📜 Table of content
 <!--ts-->
 - [About the project](#-about-the-project)
+- [Features](#-features)
 - [Back-end](#back-end)
-	- [Features](#-features)
 	- [External APIs](#-external-apis)
 	- [Technologies](#-technologies)
-	- [How to set up](#-how-to-set-up)
 - [Front-end](#front-end)
-- [Full stack](#full-stack)
+	- [Layout](#-layout)
+	- [Technologies](#-technologies)
+- [How to set up](#-how-to-set-up)
 - [Inspirations](#-inspirations)
 - [Live demo](#-live-demo)
 - [Author](#-author)
@@ -23,14 +25,21 @@ ____
  
 ## 💻 About the project
 
-This is a **weather forecast** application, that delivers a simple, clean and minimalist layout, projected for desktop and phone screens. This app was built using *React* and *Node*. The current repository/documentation explanate about the **back-end** section of this project, however, you can also check out the [front-end](#-front-end) and [full stack](#-full-stack) repositories.
+This is a **weather forecast** application, that delivers a simple, clean and minimalist layout, projected for desktop and phone screens. This app was built using *React* and *Node*. The current repository/documentation explanate about the **back-end** section of this project, however, you can also check out the [front-end](#-front-end) repository.
 
 The main goal with this project was to **release a simple yet complete** weather forecast app. In a way that I couldn't over engineer it or put way too much time on it, I decided to release the application at it's current state. In conclusion, for now I consider the **Weather Forecast** completed, but more features could be added later on.
+
+## 🔎 Features
+
+This application obtains user's current location and delivers back to the client the following data:
+- User's current city and district through reverese geolocation
+- Current weather conditions, like temperature, wind speed and humidity
+- Detailed weather forecast for the current date
+- Minimal and maximum temperature for the next days
 
 ##  Back-end
 The back-end consists in a server developed with Express Framework for Node, which listens to request triggered by the the front-end layer of the application.
 
-### 🔎 Features
 This Node server has a sole endpoint that returns a set of weather data and user's specific location:
 
 * **/previsao**: expects two parameters as *query string*:
@@ -58,6 +67,9 @@ The following techlogies were used to build Weather Forecast server:
 - [Cors](https://www.npmjs.com/package/cors)
 - [Express](https://www.npmjs.com/package/express)
 - [Axios](https://github.com/axios/axios)
+- [Material UI](https://mui.com/)
+- [React Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
+- [React Router Dom](https://www.npmjs.com/package/react-router-dom)
 
 ### ❓ How to set up
 If you wish to fork this server you'll need to set up the following environment variables:
@@ -68,8 +80,19 @@ If you wish to fork this server you'll need to set up the following environment 
 ##  Front-end
 The front-end section of **Weather Forecast** was built with React. You can read more about it on its own [GitHub repository](https://github.com/livramatheus/weather-forecast-front).
 
-##  Full Stack
-You can also check out the front and back-end sections of **Weather Forecast** bundled in a single [GitHub repository](https://github.com/livramatheus/weather-forecast).
+### 📐 Layout
+#### Mobile
+<div style="display: flex">
+	<img alt="Mobile 1" title="#1_m" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/1_m.png" height="280"/>
+	<img alt="Mobile 2" title="#2_m" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/2_m.png" height="280"/>
+</div>
+
+#### Desktop
+<div style="display: flex">
+	<img alt="Desktop 1" title="#1_d" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/1_d.png" height="280"/>
+	<img alt="Desktop 2" title="#2_d" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/1_d.png" height="280"/>
+</div>
+
 
 ### 😁 Inspirations
 
@@ -83,6 +106,10 @@ Check out this project running on [Netlify + Heroku](https://livramento-weather.
 
 Edit this Node server on CodeSandbox.
 
+#### Front-end:
+[![Edit Weather Forecast (Front)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/weather-forecast-front-465th?fontsize=14&hidenavigation=1&theme=dark)
+
+#### Back-end:
 [![Edit Weather Forecast (Back)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/weather-forecast-back-z8nuo?fontsize=14&hidenavigation=1&theme=dark)
 
 ### 👩‍🦲 Author
