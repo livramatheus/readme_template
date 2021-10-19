@@ -123,6 +123,7 @@ You can also edit and view this project on Code Sand Box:
 [![Edit Weather Forecast (Back)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/weather-forecast-back-z8nuo?fontsize=14&hidenavigation=1&theme=dark)
 
 <h3 id="author">👩‍🦲 Author</h3>
+
 Full stack developed by **Matheus do Livramento**.
 
 [GitHub](https://github.com/livramatheus) | [LinkedIn](https://www.linkedin.com/in/matheus-livramento-623590209/)
@@ -245,6 +246,7 @@ Você também pode visualizar e editar este código no Code Sand Box:
 [![Edit Weather Forecast (Back)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/weather-forecast-back-z8nuo?fontsize=14&hidenavigation=1&theme=dark)
 
 <h3 id="autor-br">👩‍🦲 Author</h3>
+
 Full stack  desenvolvido por **Matheus do Livramento**.
 
 [GitHub](https://github.com/livramatheus) | [LinkedIn](https://www.linkedin.com/in/matheus-livramento-623590209/)
