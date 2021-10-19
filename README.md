@@ -127,17 +127,17 @@ ____
 ## 📜 Tabela de conteúdo
 <!--ts-->
 - [Sobre o projeto](#-sobre-o-projeto)
-- [Features](#-features)
+- [Funcionalidades](#-funcionalidades)
 - [Front-end](#front-end)
 	- [Layout](#-layout)
-	- [Technologies](#technologies-front)
+	- [Tecnologias](#tecnologias-front)
 - [Back-end](#back-end)
 	- [External APIs](#-external-apis)
-	- [Technologies](#technologies-back)
-- [How to set up](#-how-to-set-up)
-- [Inspirations](#-inspirations)
-- [Live demo](#-live-demo)
-- [Author](#-author)
+	- [Tecnologias](#tecnologias-back)
+- [Como configurar](#-como-configurar)
+- [Inspirações](#-inspirações)
+- [Live demo](#-live-demo-br)
+- [Autor](#-autor)
 <!--te-->
  
 >**🤚 🤚 Este repositório é do lado do servidor da Previsão do Tempo, se você estiver interessado no lado do cliente, verifique [este repositório](https://github.com/livramatheus/weather-forecast-front)!**
@@ -169,7 +169,7 @@ O lado do cliente de ** Weather Forecast ** foi construído com React, resultand
 	<img alt="Desktop 2" title="#2_d" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/1_d.png" height="280"/>
 </div>
 
-### <span id="technologies-front">🔨 Technologies</span>
+### <span id="technologies-front">🔨 Tecnologias</span>
 As seguintes tecnologias foram utilizadas para construir o front-end de Weather Forecast:
 - [Axios](https://github.com/axios/axios)
 - [Material UI](https://mui.com/)
