@@ -68,12 +68,6 @@ The following techlogies were used to build Weather Forecast server:
 - [Express](https://www.npmjs.com/package/express)
 - [Axios](https://github.com/axios/axios)
 
-### ❓ How to set up
-If you wish to fork this server you'll need to set up the following environment variables:
-- **API_GEO** (LocationIQ API key)
-- **API_WEATHER** (Open Weather Map API key)
-- **PORT** (Desired port to run express)
-
 ##  Front-end
 The front-end section of **Weather Forecast** was built with React. You can read more about it on its own [GitHub repository](https://github.com/livramatheus/weather-forecast-front).
 
@@ -96,6 +90,16 @@ The following techlogies were used to build Weather Forecast's front-end:
 - [Material UI](https://mui.com/)
 - [React Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
 - [React Router Dom](https://www.npmjs.com/package/react-router-dom)
+
+### ❓ How to set up
+If you wish to fork this project you'll need to set up the following environment variables:
+#### Client-side:
+- **REACT_APP_BACK_URL** (Server URL in order to send requests)
+
+#### Server-side:
+- **API_GEO** (LocationIQ API key)
+- **API_WEATHER** (Open Weather Map API key)
+- **PORT** (Desired port to run express)
 
 ### 😁 Inspirations
 
