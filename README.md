@@ -13,10 +13,10 @@ ____
 - [Features](#-features)
 - [Back-end](#back-end)
 	- [External APIs](#-external-apis)
-	- [Technologies](#-technologies)
+	- [Technologies](#-technologies-front)
 - [Front-end](#front-end)
 	- [Layout](#-layout)
-	- [Technologies](#-technologies)
+	- [Technologies](#-technologies-back)
 - [How to set up](#-how-to-set-up)
 - [Inspirations](#-inspirations)
 - [Live demo](#-live-demo)
@@ -61,15 +61,12 @@ The following third party APIs were used to create Weather Forecast's API respon
 - [Open Weather Map](https://openweathermap.org/) for weather data
 - [LocationIQ](https://locationiq.com/) for reverse geolocation
  
-### 🔨 Technologies
+### <span id="technologies-back">🔨 Technologies</span>
 
 The following techlogies were used to build Weather Forecast server:
 - [Cors](https://www.npmjs.com/package/cors)
 - [Express](https://www.npmjs.com/package/express)
 - [Axios](https://github.com/axios/axios)
-- [Material UI](https://mui.com/)
-- [React Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
-- [React Router Dom](https://www.npmjs.com/package/react-router-dom)
 
 ### ❓ How to set up
 If you wish to fork this server you'll need to set up the following environment variables:
@@ -93,6 +90,12 @@ The front-end section of **Weather Forecast** was built with React. You can read
 	<img alt="Desktop 2" title="#2_d" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/1_d.png" height="280"/>
 </div>
 
+### <span id="technologies-front">🔨 Technologies</span>
+The following techlogies were used to build Weather Forecast's front-end:
+- [Axios](https://github.com/axios/axios)
+- [Material UI](https://mui.com/)
+- [React Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
+- [React Router Dom](https://www.npmjs.com/package/react-router-dom)
 
 ### 😁 Inspirations
 
