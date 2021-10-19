@@ -11,65 +11,32 @@ ____
 <!--ts-->
 - [About the project](#-about-the-project)
 - [Features](#-features)
-- [Back-end](#back-end)
-	- [External APIs](#-external-apis)
-	- [Technologies](#technologies-back)
 - [Front-end](#front-end)
 	- [Layout](#-layout)
 	- [Technologies](#technologies-front)
+- [Back-end](#back-end)
+	- [External APIs](#-external-apis)
+	- [Technologies](#technologies-back)
 - [How to set up](#-how-to-set-up)
 - [Inspirations](#-inspirations)
 - [Live demo](#-live-demo)
 - [Author](#-author)
 <!--te-->
  
+>**🤚 This repository is the server-side of Weather Forecast, if you are interested on client-side, check it's [own repository](https://github.com/livramatheus/weather-forecast-front)!**
+
 ## 💻 About the project
 
-This is a **weather forecast** application, that delivers a simple, clean and minimalist layout, projected for desktop and phone screens. This app was built using *React* and *Node*. The current repository/documentation explanate about the **back-end** section of this project, however, you can also check out the [front-end](#-front-end) repository.
+This is a **weather forecast** application, that delivers a simple, clean and minimalist layout, projected for desktop and phone screens. This app was built using *React* and *Node*.
 
-The main goal with this project was to **release a simple yet complete** weather forecast app. In a way that I couldn't over engineer it or put way too much time on it, I decided to release the application at it's current state. In conclusion, for now I consider the **Weather Forecast** completed, but more features could be added later on.
+The main goal with this project was to **release a simple yet complete** weather forecast app. In a way that I couldn't over engineer it or put way too much time on it, I decided to release the application at it's current state. In conclusion, **Weather Forecast** is considered completed as its current state.
 
 ## 🔎 Features
 
-This application obtains user's current location and delivers back to the client the following data:
-- User's current city and district through reverese geolocation
-- Current weather conditions, like temperature, wind speed and humidity
-- Detailed weather forecast for the current date
-- Minimal and maximum temperature for the next days
-
-##  Back-end
-The back-end consists in a server developed with Express Framework for Node, which listens to request triggered by the the front-end layer of the application.
-
-This Node server has a sole endpoint that returns a set of weather data and user's specific location:
-
-* **/previsao**: expects two parameters as *query string*:
-	- **lat:** user´s latitude
-	- **long:** user´s longitude
-
-* Returns:
-	- User's current city and district through reverese geolocation
-	- Current weather conditions, like temperature, wind speed and humidity
-	- Detailed weather forecast for the current date
-	- Minimal and maximum temperature for the next days
-
-Example:
-> /previsao?lat=-23.5549053&long=-46.4673641
-
-### 💱 External APIs
-
-The following third party APIs were used to create Weather Forecast's API responses:
-- [Open Weather Map](https://openweathermap.org/) for weather data
-- [LocationIQ](https://locationiq.com/) for reverse geolocation
- 
-### <span id="technologies-back">🔨 Technologies</span>
-
-The following techlogies were used to build Weather Forecast server:
-- [Cors](https://www.npmjs.com/package/cors)
-- [Express](https://www.npmjs.com/package/express)
-- [Axios](https://github.com/axios/axios)
+This application obtains user's current location and returns backto the client his city and district name, current weather conditions, detailed weather forecast for the current date and minimal and maximum temperature for the next days.
 
 ##  Front-end
-The front-end section of **Weather Forecast** was built with React. You can read more about it on its own [GitHub repository](https://github.com/livramatheus/weather-forecast-front).
+The client side of **Weather Forecast** was built with React, resulting in the following layout:
 
 ### 📐 Layout
 #### Mobile
@@ -90,6 +57,37 @@ The following techlogies were used to build Weather Forecast's front-end:
 - [Material UI](https://mui.com/)
 - [React Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
 - [React Router Dom](https://www.npmjs.com/package/react-router-dom)
+
+##  Back-end
+The back-end consists in a server developed with Express Framework for Node, which listens to request triggered by the the front-end layer of the application.
+
+This Node server has a sole endpoint that returns a set of weather data and user's specific location:
+
+* **/forecast**: expects two parameters as *query string*:
+	- **lat:** user´s latitude
+	- **long:** user´s longitude
+
+* Returns:
+	- User's current city and district through reverese geolocation
+	- Current weather conditions, like temperature, wind speed and humidity
+	- Detailed weather forecast for the current date
+	- Minimal and maximum temperature for the next days
+
+Example:
+> /forecast?lat=-23.5549053&long=-46.4673641
+
+### 💱 External APIs
+
+The following third party APIs were used to create Weather Forecast's API responses:
+- [Open Weather Map](https://openweathermap.org/) for weather data
+- [LocationIQ](https://locationiq.com/) for reverse geolocation
+ 
+### <span id="technologies-back">🔨 Technologies</span>
+
+The following techlogies were used to build Weather Forecast server:
+- [Cors](https://www.npmjs.com/package/cors)
+- [Express](https://www.npmjs.com/package/express)
+- [Axios](https://github.com/axios/axios)
 
 ### ❓ How to set up
 If you wish to fork this project you'll need to set up the following environment variables:
