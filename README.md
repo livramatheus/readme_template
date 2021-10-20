@@ -151,13 +151,13 @@ ____
 
 <h2 id="about-the-project-br">💻 Sobre o projeto</h2>
 
-Trata-se de um aplicativo de **previsão do tempo**, que oferece um layout simples, clean e minimalista, projetado para telas de desktops e telefones. Este aplicativo foi desenvolvido usando *React* e *Node*.
+Trata-se de um aplicativo de **previsão do tempo**, que oferece um layout simples, clean e minimalista, projetado para telas de desktops e dispositivos móveis. Este aplicativo foi desenvolvido usando *React* e *Node*.
 
 O principal objetivo com este projeto era **lançar um aplicativo de previsão do tempo simples, mas completo**, que entregasse informações essenciais sem transmitir uma sensação de vazio.
 
 <h2 id="features-br">🔎 Funcionalidades</h2>
 
-Este aplicativo obtém a localização atual do usuário e retorna ao cliente o nome de sua cidade e distrito, condições climáticas atuais, previsão do tempo detalhada para a data atual e temperatura mínima e máxima para os próximos dias.
+Este aplicativo obtém a localização atual do usuário e retorna ao cliente o nome de sua cidade e bairro, condições climáticas atuais, previsão do tempo detalhada para a data atual e temperatura mínima e máxima para os próximos dias.
 
 <h2 id="front-end-br">Front-end</h2>
 
