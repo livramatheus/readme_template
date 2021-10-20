@@ -149,7 +149,7 @@ ____
  
 >**🤚 🤚 Este repositório é do lado do servidor da Previsão do Tempo, se você estiver interessado no lado do cliente, verifique [este repositório](https://github.com/livramatheus/weather-forecast-front)!**
 
-## 💻 Sobre o projeto
+<h2 id="about-the-project-br">💻 Sobre o projeto</h2>
 
 Trata-se de um aplicativo de **previsão do tempo**, que oferece um layout simples, clean e minimalista, projetado para telas de desktops e telefones. Este aplicativo foi desenvolvido usando *React* e *Node*.
 
