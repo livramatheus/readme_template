@@ -139,7 +139,7 @@ ____
 	- [Layout](#layout-br)
 	- [Tecnologias](#technologies-front-br)
 - [Back-end](#back-end-br)
-	- [External APIs](#external-apis-br)
+	- [APIs externas](#external-apis-br)
 	- [Tecnologias](#technologies-back-br)
 - [Como configurar](#how-to-set-up-br)
 - [Inspirações](#inspirations-br)
