@@ -96,6 +96,7 @@ The following techlogies were used to build Weather Forecast server:
 <h3 id="how-to-set-up">❓ How to set up</h3>
 
 If you wish to fork this project you'll need to set up the following environment variables:
+
 #### Client-side:
 - **REACT_APP_BACK_URL** (Server URL in order to send requests)
 
@@ -161,7 +162,7 @@ Este aplicativo obtém a localização atual do usuário e retorna ao cliente o 
 
 <h2 id="front-end-br">Front-end</h2>
 
-O lado do cliente de ** Weather Forecast ** foi construído com React, resultando no seguinte layout:
+O lado do cliente de **Weather Forecast** foi construído com React, resultando no seguinte layout:
 
 <h3 id="layout-br">📐 Layout</h3>
 
@@ -191,11 +192,11 @@ O back-end consiste em um servidor desenvolvido com Express Framework para Node,
 
 Este servidor Node tem um único endpoint que retorna um conjunto de dados meteorológicos e a localização específica do usuário:
 
-* **/forecast**: espera dois parâmetros por *query string*:
+- /forecast: espera dois parâmetros por *query string*:
 	- **lat:** latitude do usuário
 	- **long:** longitude do usuário
 
-* Retorna:
+- Retorna:
 	- Cidade e bairro atuais do usuário por meio de *reverese geolocation*
 	- Condições climáticas atuais, como temperatura, velocidade do vento e umidade
 	- Previsão meteorológica detalhada para a data atual
@@ -218,7 +219,9 @@ As seguintes tecnologias foram utilizadas para desenvolver o sevidor de **Weathe
 - [Axios](https://github.com/axios/axios)
 
 <h3 id="how-to-set-up-br">❓ Como configurar</h3>
+
 Se você deseja fazer um *fork* deste projeto, você precisará configurar as seguintes variáveis de ambiente:
+
 #### Client-side:
 - **REACT_APP_BACK_URL** (URL do back-end para disparar requisições)
 
