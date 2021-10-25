@@ -18,6 +18,7 @@ ____
 - [Back-end](#back-end)
 	- [External APIs](#external-apis)
 	- [Technologies](#technologies-back)
+- [Database](#database)
 - [How to set up](#how-to-set-up)
 - [Inspirations](#inspirations)
 - [Live demo](#live-demo)
@@ -93,6 +94,16 @@ The following techlogies were used to build Weather Forecast server:
 - [Express](https://www.npmjs.com/package/express)
 - [Axios](https://github.com/axios/axios)
 
+<h2 id="database">Database</h2>
+
+MWG's database of choice was [MySql](https://www.mysql.com). Check out a brief description of the tables:
+- **tbexercise:** stores a wide set of available exercies;
+- **tbgroup:** stores muscle group divisions;
+- **tblevel:** stores possible user's level;
+- **tbstimulus:** stores advanced variations for a exercise;
+- **tbworkout:** stores generated workouts basic info;
+- **tbworkoutexercise:** sotres relations between a workout and exercise. Many-to-many table.
+
 <h3 id="how-to-set-up">❓ How to set up</h3>
 
 If you wish to fork this project you'll need to set up the following environment variables:
@@ -142,6 +153,7 @@ ____
 - [Back-end](#back-end-br)
 	- [APIs externas](#external-apis-br)
 	- [Tecnologias](#technologies-back-br)
+- [Banco de dados](#database-br)
 - [Como configurar](#how-to-set-up-br)
 - [Inspirações](#inspirations-br)
 - [Live demo](#live-demo-br)
@@ -217,6 +229,16 @@ As seguintes tecnologias foram utilizadas para desenvolver o sevidor de **Weathe
 - [Cors](https://www.npmjs.com/package/cors)
 - [Express](https://www.npmjs.com/package/express)
 - [Axios](https://github.com/axios/axios)
+
+<h2 id="database-br">Banco de Dados</h2>
+
+O banco de dados escolhido para desenvolver MWG foi o [MySql](https://www.mysql.com). Veja a seguir uma breve descrição de suas tabelas:
+- **tbexercise:** armazena uma vasta gama de exercícios;
+- **tbgroup:** armazena as divisões musculares;
+- **tblevel:** armazena os possíveis níveis atléticos do usuário;
+- **tbstimulus:** armazena variantes avançadas para algum exercício;
+- **tbworkout:** armazena informações básicas de um treinamento;
+- **tbworkoutexercise:** armazena uma relação entre treinamento e exercício. É uma tabela muitos para muitos.
 
 <h3 id="how-to-set-up-br">❓ Como configurar</h3>
 
