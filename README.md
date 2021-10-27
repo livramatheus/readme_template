@@ -327,7 +327,7 @@ Se você deseja fazer um <em>fork</em> deste projeto, você precisará configura
 <a href="https://codesandbox.io/s/weather-forecast-front-465th?fontsize=14&amp;hidenavigation=1&amp;theme=dark"><img src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="Edit Weather Forecast (Front)"></a></p>
 <p><h4 id="back-end-">Back-end:</h4>
 <a href="https://codesandbox.io/s/weather-forecast-back-z8nuo?fontsize=14&amp;hidenavigation=1&amp;theme=dark"><img src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="Edit Weather Forecast (Back)"></a></p>
-<h3 id="autor-br">👩‍🦲 Author</h3>
+<h3 id="autor-br">👩‍🦲 Autor</h3>
 
 <p>Full stack  desenvolvido por <strong>Matheus do Livramento</strong>.</p>
 <p><a href="https://github.com/livramatheus">GitHub</a> | <a href="https://www.linkedin.com/in/livramatheus">LinkedIn</a></p>
