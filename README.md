@@ -6,10 +6,9 @@
 - [Documentação em português](#documentação-em-português)
 
 ____
-# English Documentation
+<h1 id="english-documentation">English Documentation</h1>
 <h2>📜 Table of content</h2>
 
-<!--ts-->
 <ul>
 	<li><a href="#about-the-project">About the project</a></li>
 	<li><a href="#features">Features</a></li>
@@ -29,14 +28,13 @@ ____
 	<li><a href="#live-demo">Live demo</a></li>
 	<li><a href="#author">Author</a></li>
 </ul>
-<!--te-->
  
->**🤚 This repository is the server-side of Weather Forecast, if you are interested on client-side, check [this repository](https://github.com/livramatheus/weather-forecast-front)!**
+><b>🤚 This repository is the server-side of Weather Forecast, if you are interested on client-side, check <a href="https://github.com/livramatheus/weather-forecast-front">this repository</a>!</b>
 <h2 id="about-the-project">💻 About the project</h2>
 
-This is a **weather forecast** application, that delivers a simple, clean and minimalist layout, projected for desktop and phone screens. This app was built using *React* and *Node*.
+This is a <b>weather forecast</b> application, that delivers a simple, clean and minimalist layout, projected for desktop and phone screens. This app was built using <em>React</em> and <em>Node</em>.
 
-The main goal with this project was to **release a simple yet complete** weather forecast app that delivery essential information without transmitting an empty feeling.
+The main goal with this project was to <b>release a simple yet complete</b> weather forecast app that delivery essential information without transmitting an empty feeling.
 
 <h2 id="features">🔎 Features</h2>
 
@@ -44,17 +42,17 @@ This application obtains user's current location and returns back to the client 
 
 <h2 id="front-end">Front-end</h2>
 
-The client-side of **Weather Forecast** was built with React, resulting in the following layout:
+The client-side of <b>Weather Forecast</b> was built with React, resulting in the following layout:
 
 <h3 id="layout">📐 Layout</h3>
 
-#### Mobile
+<h4>Mobile</h4>
 <div style="display: flex">
 	<img alt="Mobile 1" title="#1_m" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/1_m.png" height="280"/>
 	<img alt="Mobile 2" title="#2_m" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/2_m.png" height="280"/>
 </div>
 
-#### Desktop
+<h4>Desktop</h4>
 <div style="display: flex">
 	<img alt="Desktop 1" title="#1_d" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/1_d.png" height="280"/>
 	<img alt="Desktop 2" title="#2_d" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/1_d.png" height="280"/>
@@ -63,10 +61,12 @@ The client-side of **Weather Forecast** was built with React, resulting in the f
 <h3 id="technologies-front">🔨 Technologies</h3>
 
 The following techlogies were used to build Weather Forecast's front-end:
-- [Axios](https://github.com/axios/axios)
-- [Material UI](https://mui.com/)
-- [React Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
-- [React Router Dom](https://www.npmjs.com/package/react-router-dom)
+<ul>
+	<li><a href="https://github.com/axios/axios">Axios</a></li>
+	<li><a href="https://mui.com/">Material UI</a></li>
+	<li><a href="https://www.npmjs.com/package/react-loading-skeleton">React Loading Skeleton</a></li>
+	<li><a href="https://www.npmjs.com/package/react-router-dom">React Router Dom</a></li>
+</ul>
 
 <h2 id="back-end">Back-end</h2>
 
