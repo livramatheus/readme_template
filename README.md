@@ -2,8 +2,10 @@
 
 <h1 align="center">⛅ React Weather Forecast (back-end)</h1>
 
-- [English documentation](#english-documentation)
-- [Documentação em português](#documentação-em-português)
+<ul>
+<li><a href="#english-documentation">English documentation</a></li>
+<li><a href="#documentação-em-português">Documentação em português</a></li>
+</ul>
 
 ____
 <h1 id="english-documentation">English Documentation</h1>
@@ -157,7 +159,7 @@ Weather Forecast was inspired by the following projects on Figma:
 
 <h3 id="live-demo">🌐 Live demo</h3>
 
-Check out this project running on [Netlify + Heroku](https://livramento-weather.netlify.app/)
+Check out this project running on <a href="https://livramento-weather.netlify.app/">Netlify + Heroku</a>
 
 You can also edit and view this project on Code Sand Box:
 
@@ -203,9 +205,9 @@ ____
 
 <h2 id="about-the-project-br">💻 Sobre o projeto</h2>
 
-Trata-se de um aplicativo de **previsão do tempo**, que oferece um layout simples, clean e minimalista, projetado para telas de desktops e dispositivos móveis. Este aplicativo foi desenvolvido usando *React* e *Node*.
+Trata-se de um aplicativo de <strong>previsão do tempo</strong>, que oferece um layout simples, clean e minimalista, projetado para telas de desktops e dispositivos móveis. Este aplicativo foi desenvolvido usando <em>React</em> e <em>Node</em>.
 
-O principal objetivo com este projeto era **lançar um aplicativo de previsão do tempo simples, mas completo**, que entregasse informações essenciais sem transmitir uma sensação de vazio.
+O principal objetivo com este projeto era <strong>lançar um aplicativo de previsão do tempo simples, mas completo</strong>, que entregasse informações essenciais sem transmitir uma sensação de vazio.
 
 <h2 id="features-br">🔎 Funcionalidades</h2>
 
@@ -213,17 +215,17 @@ Este aplicativo obtém a localização atual do usuário e retorna ao cliente o 
 
 <h2 id="front-end-br">Front-end</h2>
 
-O lado do cliente de **Weather Forecast** foi construído com React, resultando no seguinte layout:
+O lado do cliente de <strong>Weather Forecast</strong> foi construído com React, resultando no seguinte layout:
 
 <h3 id="layout-br">📐 Layout</h3>
 
-#### Mobile
+<h4 id="mobile">Mobile</h4>
 <div style="display: flex">
 	<img alt="Mobile 1" title="#1_m" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/1_m.png" height="280"/>
 	<img alt="Mobile 2" title="#2_m" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/2_m.png" height="280"/>
 </div>
 
-#### Desktop
+<h4 id="desktop">Desktop</h4>
 <div style="display: flex">
 	<img alt="Desktop 1" title="#1_d" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/1_d.png" height="280"/>
 	<img alt="Desktop 2" title="#2_d" src="https://github.com/livramatheus/weather-forecast-front/raw/main/src/assets/1_d.png" height="280"/>
@@ -232,10 +234,12 @@ O lado do cliente de **Weather Forecast** foi construído com React, resultando 
 <h3 id="technologies-front-br">🔨 Tecnologias</h3>
 
 As seguintes tecnologias foram utilizadas para construir o front-end de Weather Forecast:
-- [Axios](https://github.com/axios/axios)
-- [Material UI](https://mui.com/)
-- [React Loading Skeleton](https://www.npmjs.com/package/react-loading-skeleton)
-- [React Router Dom](https://www.npmjs.com/package/react-router-dom)
+<ul>
+	<li><a href="https://github.com/axios/axios">Axios</a></li>
+	<li><a href="https://mui.com/">Material UI</a></li>
+	<li><a href="https://www.npmjs.com/package/react-loading-skeleton">React Loading Skeleton</a></li>
+	<li><a href="https://www.npmjs.com/package/react-router-dom">React Router Dom</a></li>
+</ul>
 
 <h2 id="back-end-br">Back-end</h2>
 
