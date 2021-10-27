@@ -9,6 +9,7 @@ ____
 <h1 id="english-documentation">English Documentation</h1>
 <h2>📜 Table of content</h2>
 
+<!--ts-->
 <ul>
 	<li><a href="#about-the-project">About the project</a></li>
 	<li><a href="#features">Features</a></li>
@@ -28,8 +29,12 @@ ____
 	<li><a href="#live-demo">Live demo</a></li>
 	<li><a href="#author">Author</a></li>
 </ul>
+<!--te-->
  
-><b>🤚 This repository is the server-side of Weather Forecast, if you are interested on client-side, check <a href="https://github.com/livramatheus/weather-forecast-front">this repository</a>!</b>
+<blockquote>
+<p><b>🤚 This repository is the server-side of Weather Forecast, if you are interested on client-side, check <a href="https://github.com/livramatheus/weather-forecast-front">this repository</a>!</b></p>
+</blockquote>
+
 <h2 id="about-the-project">💻 About the project</h2>
 
 This is a <b>weather forecast</b> application, that delivers a simple, clean and minimalist layout, projected for desktop and phone screens. This app was built using <em>React</em> and <em>Node</em>.
@@ -74,59 +79,81 @@ The back-end consists in a server developed with Express Framework for Node, whi
 
 This Node server has a sole endpoint that returns a set of weather data and user's specific location:
 
-* **/forecast**: expects two parameters as *query string*:
-	- **lat:** user´s latitude
-	- **long:** user´s longitude
+<ul>
+	<li><strong>/forecast</strong>: expects two parameters as <em>query string</em>:	
+	<ul>
+		<li><strong>lat:</strong> user´s latitude</li>
+		<li><strong>long:</strong> user´s longitude</li>
+	</ul>
+</ul>
 
-* Returns:
-	- User's current city and district through reverese geolocation
-	- Current weather conditions, like temperature, wind speed and humidity
-	- Detailed weather forecast for the current date
-	- Minimal and maximum temperature for the next days
+<ul>
+	<li>Returns:</li>
+	<ul>
+		<li>User&#39;s current city and district through reverese geolocation</li>
+		<li>Current weather conditions, like temperature, wind speed and humidity</li>
+		<li>Detailed weather forecast for the current date</li>
+		<li>Minimal and maximum temperature for the next days</li>
+	</ul>
+</ul>
 
 Example:
-> /forecast?lat=-23.5549053&long=-46.4673641
+<blockquote>
+	<p>/forecast?lat=-23.5549053&amp;long=-46.4673641</p>
+</blockquote>
 
 <h3 id="external-apis">💱 External APIs</h3>
 	
 The following third party APIs were used to create Weather Forecast's API responses:
-- [Open Weather Map](https://openweathermap.org/) for weather data
-- [LocationIQ](https://locationiq.com/) for reverse geolocation
+<ul>
+	<li><a href="https://openweathermap.org/">Open Weather Map</a> for weather data</li>
+	<li><a href="https://locationiq.com/">LocationIQ</a> for reverse geolocation</li>
+</ul>
  
 <h3 id="technologies-back">🔨 Technologies</h3>
 
 The following techlogies were used to build Weather Forecast server:
-- [Cors](https://www.npmjs.com/package/cors)
-- [Express](https://www.npmjs.com/package/express)
-- [Axios](https://github.com/axios/axios)
+<ul>
+	<li><a href="https://www.npmjs.com/package/cors">Cors</a></li>
+	<li><a href="https://www.npmjs.com/package/express">Express</a></li>
+	<li><a href="https://github.com/axios/axios">Axios</a></li>
+</ul>
 
 <h2 id="database">Database</h2>
 
-MWG's database of choice was [MySql](https://www.mysql.com). Check out a brief description of the tables:
-- **tbexercise:** stores a wide set of available exercies;
-- **tbgroup:** stores muscle group divisions;
-- **tblevel:** stores possible user's level;
-- **tbstimulus:** stores advanced variations for a exercise;
-- **tbworkout:** stores generated workouts basic info;
-- **tbworkoutexercise:** sotres relations between a workout and exercise. Many-to-many table.
+MWG's database of choice was <a href="https://www.mysql.com">MySql</a>. Check out a brief description of the tables:
+<ul>
+	<li><strong>tbexercise:</strong> stores a wide set of available exercies;</li>
+	<li><strong>tbgroup:</strong> stores muscle group divisions;</li>
+	<li><strong>tblevel:</strong> stores possible user's level;</li>
+	<li><strong>tbstimulus:</strong> stores advanced variations for a exercise;</li>
+	<li><strong>tbworkout:</strong> stores generated workouts basic info;</li>
+	<li><strong>tbworkoutexercise:</strong> sotres relations between a workout and exercise. Many-to-many table.</li>
+</ul>
 
 <h3 id="how-to-set-up">❓ How to set up</h3>
 
 If you wish to fork this project you'll need to set up the following environment variables:
 
-#### Client-side:
-- **REACT_APP_BACK_URL** (Server URL in order to send requests)
+<h4 id="client-side-">Client-side:</h4>
+<ul>
+<li><strong>REACT_APP_BACK_URL</strong> (Server URL in order to send requests)</li>
+</ul>
 
-#### Server-side:
-- **API_GEO** (LocationIQ API key)
-- **API_WEATHER** (Open Weather Map API key)
-- **PORT** (Desired port to run express)
+<h4 id="server-side-">Server-side:</h4>
+<ul>
+	<li><strong>API_GEO</strong> (LocationIQ API key)</li>
+	<li><strong>API_WEATHER</strong> (Open Weather Map API key)</li>
+	<li><strong>PORT</strong> (Desired port to run express)</li>
+</ul>
 
 <h3 id="inspirations">😁 Inspirations</h3>
 
 Weather Forecast was inspired by the following projects on Figma:
-- [Weather Icons | Flat & Outline](https://www.figma.com/community/file/955978734883254712)
-- [Weather Forecast App](https://www.figma.com/file/fXpD0piPYygazRk9mAXQH9/Weather-Forecast-App-(Community))
+<ul>
+	<li><a href="https://www.figma.com/community/file/955978734883254712">Weather Icons | Flat &amp; Outline</a></li>
+	<li><a href="https://www.figma.com/file/fXpD0piPYygazRk9mAXQH9/Weather-Forecast-App-(Community">Weather Forecast App</a>)</li>
+</ul>
 
 <h3 id="live-demo">🌐 Live demo</h3>
 
@@ -134,23 +161,22 @@ Check out this project running on [Netlify + Heroku](https://livramento-weather.
 
 You can also edit and view this project on Code Sand Box:
 
-#### Front-end:
-[![Edit Weather Forecast (Front)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/weather-forecast-front-465th?fontsize=14&hidenavigation=1&theme=dark)
+<h4 id="front-end-">Front-end:</h4>
+<a href="https://codesandbox.io/s/weather-forecast-front-465th?fontsize=14&amp;hidenavigation=1&amp;theme=dark"><img src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="Edit Weather Forecast (Front)"></a>
 
-#### Back-end:
-[![Edit Weather Forecast (Back)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/weather-forecast-back-z8nuo?fontsize=14&hidenavigation=1&theme=dark)
+<h4 id="back-end-">Back-end:</h4>
+<a href="https://codesandbox.io/s/weather-forecast-back-z8nuo?fontsize=14&amp;hidenavigation=1&amp;theme=dark"><img src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="Edit Weather Forecast (Back)"></a>
 
 <h3 id="author">👩‍🦲 Author</h3>
 
-Full stack developed by **Matheus do Livramento**.
+Full stack developed by <strong>Matheus do Livramento</strong>.
 
-[GitHub](https://github.com/livramatheus) | [LinkedIn](https://www.linkedin.com/in/livramatheus)
+<a href="https://github.com/livramatheus">GitHub</a> | <a href="https://www.linkedin.com/in/livramatheus">LinkedIn</a>
 
 ____
-# Documentação em português
+<h1 id="documentação-em-português">Documentação em português</h1>
 <h2>📜 Tabela de conteúdo</h2>
 
-<!--ts-->
 <ul>
 	<li><a href="#about-the-project-br">Sobre o projeto</a></li>
 	<li><a href="#features-br">Funcionalidades</a></li>
@@ -170,9 +196,10 @@ ____
 	<li><a href="#live-demo-br">Live demo</a></li>
 	<li><a href="#autor-br">Autor</a></li>
 </ul>
-<!--te-->
  
->**🤚 🤚 Este repositório é do lado do servidor da Previsão do Tempo, se você estiver interessado no lado do cliente, verifique [este repositório](https://github.com/livramatheus/weather-forecast-front)!**
+<blockquote>
+<p><strong>🤚 🤚 Este repositório é do lado do servidor da Previsão do Tempo, se você estiver interessado no lado do cliente, verifique <a href="https://github.com/livramatheus/weather-forecast-front">este repositório</a>!</strong></p>
+</blockquote>
 
 <h2 id="about-the-project-br">💻 Sobre o projeto</h2>
 
@@ -216,74 +243,97 @@ O back-end consiste em um servidor desenvolvido com Express Framework para Node,
 
 Este servidor Node tem um único endpoint que retorna um conjunto de dados meteorológicos e a localização específica do usuário:
 
-- /forecast: espera dois parâmetros por *query string*:
-	- **lat:** latitude do usuário
-	- **long:** longitude do usuário
+<ul>
+	<li>/forecast: espera dois parâmetros por <em>query string</em>:</li>
+	<ul>
+		<li><strong>lat:</strong> latitude do usuário</li>
+		<li><strong>long:</strong> longitude do usuário</li>
+	</ul>
+</ul>
 
-- Retorna:
-	- Cidade e bairro atuais do usuário por meio de *reverese geolocation*
-	- Condições climáticas atuais, como temperatura, velocidade do vento e umidade
-	- Previsão meteorológica detalhada para a data atual
-	- Temperatura mínima e máxima para os próximos dias
+<ul>
+	<li>Retorna:</li>
+	<ul>
+		<li>Cidade e bairro atuais do usuário por meio de <em>reverese geolocation</em></li>
+		<li>Condições climáticas atuais, como temperatura, velocidade do vento e umidade</li>
+		<li>Previsão meteorológica detalhada para a data atual</li>
+		<li>Temperatura mínima e máxima para os próximos dias</li>
+	</ul>
+</ul>
 
 Exmplo:
-> /forecast?lat=-23.5549053&long=-46.4673641
+<blockquote>
+	<p>/forecast?lat=-23.5549053&amp;long=-46.4673641</p>
+</blockquote>
 
 <h3 id="external-apis-br">💱 APIs externas</h3>
 
-As seguintes APIs de terceiros foram usadas para criar respostas da API de **Weather Forecast**:
-- [Open Weather Map](https://openweathermap.org/) para dados climáticos
-- [LocationIQ](https://locationiq.com/) para o *reverse geolocation*
+As seguintes APIs de terceiros foram usadas para criar respostas da API de <strong>Weather Forecast</strong>:
+<ul>
+	<li><a href="https://openweathermap.org/">Open Weather Map</a> para dados climáticos</li>
+	<li><a href="https://locationiq.com/">LocationIQ</a> para o <em>reverse geolocation</em></li>
+</ul>
  
 <h3 id="technologies-back-br">🔨 Tecnologias</h3>
 
-As seguintes tecnologias foram utilizadas para desenvolver o sevidor de **Weather Forecast**:
-- [Cors](https://www.npmjs.com/package/cors)
-- [Express](https://www.npmjs.com/package/express)
-- [Axios](https://github.com/axios/axios)
+As seguintes tecnologias foram utilizadas para desenvolver o sevidor de <strong>Weather Forecast</strong>:
+<ul>
+	<li><a href="https://www.npmjs.com/package/cors">Cors</a></li>
+	<li><a href="https://www.npmjs.com/package/express">Express</a></li>
+	<li><a href="https://github.com/axios/axios">Axios</a></li>
+</ul>
 
 <h2 id="database-br">Banco de Dados</h2>
 
-O banco de dados escolhido para desenvolver MWG foi o [MySql](https://www.mysql.com). Veja a seguir uma breve descrição de suas tabelas:
-- **tbexercise:** armazena uma vasta gama de exercícios;
-- **tbgroup:** armazena as divisões musculares;
-- **tblevel:** armazena os possíveis níveis atléticos do usuário;
-- **tbstimulus:** armazena variantes avançadas para algum exercício;
-- **tbworkout:** armazena informações básicas de um treinamento;
-- **tbworkoutexercise:** armazena uma relação entre treinamento e exercício. É uma tabela muitos para muitos.
+O banco de dados escolhido para desenvolver MWG foi o <a href="https://www.mysql.com">MySql</a>. Veja a seguir uma breve descrição de suas tabelas:
+<ul>
+	<li><strong>tbexercise:</strong> armazena uma vasta gama de exercícios;</li>
+	<li><strong>tbgroup:</strong> armazena as divisões musculares;</li>
+	<li><strong>tblevel:</strong> armazena os possíveis níveis atléticos do usuário;</li>
+	<li><strong>tbstimulus:</strong> armazena variantes avançadas para algum exercício;</li>
+	<li><strong>tbworkout:</strong> armazena informações básicas de um treinamento;</li>
+	<li><strong>tbworkoutexercise:</strong> armazena uma relação entre treinamento e exercício. É uma tabela muitos para muitos.</li>
+</ul>
 
 <h3 id="how-to-set-up-br">❓ Como configurar</h3>
 
-Se você deseja fazer um *fork* deste projeto, você precisará configurar as seguintes variáveis de ambiente:
+Se você deseja fazer um <em>fork</em> deste projeto, você precisará configurar as seguintes variáveis de ambiente:
 
-#### Client-side:
-- **REACT_APP_BACK_URL** (URL do back-end para disparar requisições)
+<h4 id="client-side-">Client-side:</h4>
 
-#### Server-side:
-- **API_GEO** (Chave de API de LocationIQ)
-- **API_WEATHER** (Chave de API de Open Weather Map)
-- **PORT** (Porta desejada pra rodar o servidor)
+<ul>
+	<li><strong>REACT_APP_BACK_URL</strong> (URL do back-end para disparar requisições)</li>
+</ul>
+
+<h4 id="server-side-">Server-side:</h4>
+<ul>
+	<li><strong>API_GEO</strong> (Chave de API de LocationIQ)</li>
+	<li><strong>API_WEATHER</strong> (Chave de API de Open Weather Map)</li>
+	<li><strong>PORT</strong> (Porta desejada pra rodar o servidor)</li>
+</ul>
 
 <h3 id="inspirations-br">😁 Inspirações</h3>
 
 Weather Forecast foi inspirado pelos seguintes projetos do Figma:
-- [Weather Icons | Flat & Outline](https://www.figma.com/community/file/955978734883254712)
-- [Weather Forecast App](https://www.figma.com/file/fXpD0piPYygazRk9mAXQH9/Weather-Forecast-App-(Community))
+<ul>
+	<li><a href="https://www.figma.com/community/file/955978734883254712">Weather Icons | Flat &amp; Outline</a></li>
+	<li><a href="https://www.figma.com/file/fXpD0piPYygazRk9mAXQH9/Weather-Forecast-App-(Community">Weather Forecast App</a>)</li>
+</ul>
 
 <h3 id="live-demo-br">🌐 Live demo</h3>
 
-Veja este projeto rodando no [Netlify + Heroku](https://livramento-weather.netlify.app/)
+Veja este projeto rodando no <a href="https://livramento-weather.netlify.app/">Netlify + Heroku</a>
 
 Você também pode visualizar e editar este código no Code Sand Box:
 
-#### Front-end:
-[![Edit Weather Forecast (Front)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/weather-forecast-front-465th?fontsize=14&hidenavigation=1&theme=dark)
+<h4 id="front-end-">Front-end:</h4>
+<a href="https://codesandbox.io/s/weather-forecast-front-465th?fontsize=14&amp;hidenavigation=1&amp;theme=dark"><img src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="Edit Weather Forecast (Front)"></a>
 
-#### Back-end:
-[![Edit Weather Forecast (Back)](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/weather-forecast-back-z8nuo?fontsize=14&hidenavigation=1&theme=dark)
+<h4 id="back-end-">Back-end:</h4>
+<a href="https://codesandbox.io/s/weather-forecast-back-z8nuo?fontsize=14&amp;hidenavigation=1&amp;theme=dark"><img src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="Edit Weather Forecast (Back)"></a>
 
 <h3 id="autor-br">👩‍🦲 Author</h3>
 
-Full stack  desenvolvido por **Matheus do Livramento**.
+Full stack  desenvolvido por <strong>Matheus do Livramento</strong>.
 
-[GitHub](https://github.com/livramatheus) | [LinkedIn](https://www.linkedin.com/in/livramatheus)
+<a href="https://github.com/livramatheus">GitHub</a> | <a href="https://www.linkedin.com/in/livramatheus">LinkedIn</a>
