@@ -10,19 +10,25 @@ ____
 <h2>📜 Table of content</h2>
 
 <!--ts-->
-- [About the project](#about-the-project)
-- [Features](#features)
-- [Front-end](#front-end)
-	- [Layout](#layout)
-	- [Technologies](#technologies-front)
-- [Back-end](#back-end)
-	- [External APIs](#external-apis)
-	- [Technologies](#technologies-back)
-- [Database](#database)
-- [How to set up](#how-to-set-up)
-- [Inspirations](#inspirations)
-- [Live demo](#live-demo)
-- [Author](#author)
+<ul>
+	<li><a href="#about-the-project">About the project</a></li>
+	<li><a href="#features">Features</a></li>
+	<li><a href="#front-end">Front-end</a></li>
+	<ul>
+		<li><a href="#layout">Layout</a></li>
+		<li><a href="#technologies-front">Technologies</a></li>
+	</ul>
+	<li><a href="#back-end">Back-end</a></li>
+	<ul>
+		<li><a href="#external-apis">External APIs</a></li>
+		<li><a href="#technologies-back">Technologies</a></li>
+	</ul>
+	<li><a href="#database">Database</a></li>
+	<li><a href="#how-to-set-up">How to set up</a></li>
+	<li><a href="#inspirations">Inspirations</a></li>
+	<li><a href="#live-demo">Live demo</a></li>
+	<li><a href="#author">Author</a></li>
+</ul>
 <!--te-->
  
 >**🤚 This repository is the server-side of Weather Forecast, if you are interested on client-side, check [this repository](https://github.com/livramatheus/weather-forecast-front)!**
@@ -145,19 +151,25 @@ ____
 <h2>📜 Tabela de conteúdo</h2>
 
 <!--ts-->
-- [Sobre o projeto](#about-the-project-br)
-- [Funcionalidades](#features-br)
-- [Front-end](#front-end-br)
-	- [Layout](#layout-br)
-	- [Tecnologias](#technologies-front-br)
-- [Back-end](#back-end-br)
-	- [APIs externas](#external-apis-br)
-	- [Tecnologias](#technologies-back-br)
-- [Banco de dados](#database-br)
-- [Como configurar](#how-to-set-up-br)
-- [Inspirações](#inspirations-br)
-- [Live demo](#live-demo-br)
-- [Autor](#autor-br)
+<ul>
+	<li><a href="#about-the-project-br">Sobre o projeto</a></li>
+	<li><a href="#features-br">Funcionalidades</a></li>
+	<li><a href="#front-end-br">Front-end</a></li>
+	<ul>
+		<li><a href="#layout-br">Layout</a></li>
+		<li><a href="#technologies-front-br">Tecnologias</a></li>
+	</ul>
+	<li><a href="#back-end-br">Back-end</a></li>
+	<ul>
+		<li><a href="#external-apis-br">APIs externas</a></li>
+		<li><a href="#technologies-back-br">Technologies</a></li>
+	</ul>
+	<li><a href="#database-br">Banco de dados</a></li>
+	<li><a href="#how-to-set-up-br">Como configurar</a></li>
+	<li><a href="#inspirations-br">Inspirações</a></li>
+	<li><a href="#live-demo-br">Live demo</a></li>
+	<li><a href="#autor-br">Autor</a></li>
+</ul>
 <!--te-->
  
 >**🤚 🤚 Este repositório é do lado do servidor da Previsão do Tempo, se você estiver interessado no lado do cliente, verifique [este repositório](https://github.com/livramatheus/weather-forecast-front)!**
