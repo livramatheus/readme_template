@@ -327,7 +327,7 @@ Se você deseja fazer um <em>fork</em> deste projeto, você precisará configura
 <p>Weather Forecast foi inspirado pelos seguintes projetos do Figma:</p>
 <ul>
     <li><a href="https://www.figma.com/community/file/955978734883254712">Weather Icons | Flat &amp; Outline</a></li>
-    <li><a href="https://www.figma.com/file/fXpD0piPYygazRk9mAXQH9/Weather-Forecast-App-(Community">Weather Forecast App</a>)</li>
+    <li><a href="https://www.figma.com/file/fXpD0piPYygazRk9mAXQH9/Weather-Forecast-App-(Community)">Weather Forecast App</a></li>
 </ul>
 
 <h3 id="autor-br">👩‍🦲 Autor</h3>
