@@ -37,15 +37,15 @@
 
 <h2 id="about-the-project">💻 About the project</h2>
 
-This is a <b>weather forecast</b> application, that delivers a simple, clean and minimalist layout, projected for desktop and phone screens. This app was built using <em>React</em> and <em>Node</em>.
+<p>This is a <b>weather forecast</b> application, that delivers a simple, clean and minimalist layout, projected for desktop and phone screens. This app was built using <em>React</em> and <em>Node</em>.</p>
 
-The main goal with this project was to <b>release a simple yet complete</b> weather forecast app that delivery essential information without transmitting an empty feeling.
+<p>The main goal with this project was to <b>release a simple yet complete</b> weather forecast app that delivery essential information without transmitting an empty feeling.</p>
 
 <h2 id="live-demo">🌐 Live demo</h2>
 
-Check out this project running on <a href="https://livramento-weather.netlify.app/">Netlify + Heroku</a>
+<p>Check out this project running on <a href="https://livramento-weather.netlify.app/">Netlify + Heroku</a></p>
 
-You can also edit and view this project on Code Sand Box:
+<p>You can also edit and view this project on Code Sand Box:</p>
 
 <h4 id="front-end-">Front-end:</h4>
 <a href="https://codesandbox.io/s/weather-forecast-front-465th?fontsize=14&amp;hidenavigation=1&amp;theme=dark"><img src="https://codesandbox.io/static/img/play-codesandbox.svg" alt="Edit Weather Forecast (Front)"></a>
@@ -55,11 +55,11 @@ You can also edit and view this project on Code Sand Box:
 
 <h2 id="features">🔎 Features</h2>
 
-This application obtains user&#39;s current location and returns back to the client his city and district name, current weather conditions, detailed weather forecast for the current date and minimal and maximum temperature for the next days.
+<p>This application obtains user&#39;s current location and returns back to the client his city and district name, current weather conditions, detailed weather forecast for the current date and minimal and maximum temperature for the next days.</p>
 
 <h2 id="front-end">Front-end</h2>
 
-The client-side of <b>Weather Forecast</b> was built with React, resulting in the following layout:
+<p>The client-side of <b>Weather Forecast</b> was built with React, resulting in the following layout:</p>
 
 <h3 id="layout">📐 Layout</h3>
 
@@ -77,7 +77,7 @@ The client-side of <b>Weather Forecast</b> was built with React, resulting in th
 
 <h3 id="technologies-front">🔨 Technologies</h3>
 
-The following techlogies were used to build Weather Forecast&#39;s front-end:
+<p>The following techlogies were used to build Weather Forecast&#39;s front-end:</p>
 <ul>
     <li><a href="https://github.com/axios/axios">Axios</a></li>
     <li><a href="https://mui.com/">Material UI</a></li>
@@ -99,7 +99,7 @@ The following techlogies were used to build Weather Forecast&#39;s front-end:
 <ul>
     <li>Returns:</li>
     <ul>
-        <li>User&#39;s current city and district through reverese geolocation</li>
+        <li>User's current city and district through reverese geolocation</li>
         <li>Current weather conditions, like temperature, wind speed and humidity</li>
         <li>Detailed weather forecast for the current date</li>
         <li>Minimal and maximum temperature for the next days</li>
@@ -130,7 +130,7 @@ The following techlogies were used to build Weather Forecast&#39;s front-end:
 
 <h2 id="database">Database</h2>
 
-<p>MWG&#39;s database of choice was <a href="https://www.mysql.com">MySql</a>. Check out a brief description of the tables:</p>
+<p>MWG's database of choice was <a href="https://www.mysql.com">MySql</a>. Check out a brief description of the tables:</p>
 <ul>
     <li><strong>tbexercise:</strong> stores a wide set of available exercies;</li>
     <li><strong>tbgroup:</strong> stores muscle group divisions;</li>
@@ -157,15 +157,15 @@ The following techlogies were used to build Weather Forecast&#39;s front-end:
 
 <h3 id="inspirations">😁 Inspirations</h3>
 
-Weather Forecast was inspired by the following projects on Figma:
+<p>Weather Forecast was inspired by the following projects on Figma:</p>
 <ul>
-    <li><a href="https://www.figma.com/community/file/955978734883254712">Weather Icons | Flat &amp; Outline</a></li>
+    <li><a href="https://www.figma.com/community/file/955978734883254712">Weather Icons | Flat Outline</a></li>
     <li><a href="https://www.figma.com/file/fXpD0piPYygazRk9mAXQH9/Weather-Forecast-App-(Community)">Weather Forecast App</a></li>
 </ul>
 
 <h3 id="author">👩‍🦲 Author</h3>
 
-Full stack developed by <strong>Matheus do Livramento</strong>.
+<p>Full stack developed by <strong>Matheus do Livramento</strong>.</p>
 
 <p><a href="https://github.com/livramatheus">GitHub</a> | <a href="https://www.linkedin.com/in/livramatheus">LinkedIn</a> | <a href="https://www.livramento.dev/">Website</a></p>
 
@@ -200,9 +200,13 @@ Full stack developed by <strong>Matheus do Livramento</strong>.
 
 <h2 id="about-the-project-br">💻 Sobre o projeto</h2>
 
+<p>
 Trata-se de um aplicativo de <strong>previsão do tempo</strong>, que oferece um layout simples, clean e minimalista, projetado para telas de desktops e dispositivos móveis. Este aplicativo foi desenvolvido usando <em>React</em> e <em>Node</em>.
+</p>
 
-O principal objetivo com este projeto era <strong>lançar um aplicativo de previsão do tempo simples, mas completo</strong>, que entregasse informações essenciais sem transmitir uma sensação de vazio.
+<p>
+    O principal objetivo com este projeto era <strong>lançar um aplicativo de previsão do tempo simples, mas completo</strong>, que entregasse informações essenciais sem transmitir uma sensação de vazio.
+</p>
 
 <h2 id="live-demo-br">🌐 Live demo</h2>
 
@@ -217,11 +221,13 @@ O principal objetivo com este projeto era <strong>lançar um aplicativo de previ
 
 <h2 id="features-br">🔎 Funcionalidades</h2>
 
-Este aplicativo obtém a localização atual do usuário e retorna ao cliente o nome de sua cidade e bairro, condições climáticas atuais, previsão do tempo detalhada para a data atual e temperatura mínima e máxima para os próximos dias.
+<p>
+    Este aplicativo obtém a localização atual do usuário e retorna ao cliente o nome de sua cidade e bairro, condições climáticas atuais, previsão do tempo detalhada para a data atual e temperatura mínima e máxima para os próximos dias.
+</p>
 
 <h2 id="front-end-br">Front-end</h2>
 
-O lado do cliente de <strong>Weather Forecast</strong> foi construído com React, resultando no seguinte layout:
+<p>O lado do cliente de <strong>Weather Forecast</strong> foi construído com React, resultando no seguinte layout:</p>
 
 <h3 id="layout-br">📐 Layout</h3>
 
@@ -239,7 +245,7 @@ O lado do cliente de <strong>Weather Forecast</strong> foi construído com React
 
 <h3 id="technologies-front-br">🔨 Tecnologias</h3>
 
-As seguintes tecnologias foram utilizadas para construir o front-end de Weather Forecast:
+<p>As seguintes tecnologias foram utilizadas para construir o front-end de Weather Forecast:</p>
 <ul>
     <li><a href="https://github.com/axios/axios">Axios</a></li>
     <li><a href="https://mui.com/">Material UI</a></li>
@@ -249,9 +255,9 @@ As seguintes tecnologias foram utilizadas para construir o front-end de Weather 
 
 <h2 id="back-end-br">Back-end</h2>
 
-O back-end consiste em um servidor desenvolvido com Express Framework para Node, que escuta as solicitações acionadas pela camada front-end da aplicação.
+<p>O back-end consiste em um servidor desenvolvido com Express Framework para Node, que escuta as solicitações acionadas pela camada front-end da aplicação.</p>
 
-Este servidor Node tem um único endpoint que retorna um conjunto de dados meteorológicos e a localização específica do usuário:
+<p>Este servidor Node tem um único endpoint que retorna um conjunto de dados meteorológicos e a localização específica do usuário:</p>
 
 <ul>
     <li>/forecast: espera dois parâmetros por <em>query string</em>:</li>
@@ -271,14 +277,14 @@ Este servidor Node tem um único endpoint que retorna um conjunto de dados meteo
     </ul>
 </ul>
 
-Exmplo:
+<p>Exmplo:</p>
 <blockquote>
     <p>/forecast?lat=-23.5549053&amp;long=-46.4673641</p>
 </blockquote>
 
 <h3 id="external-apis-br">💱 APIs externas</h3>
 
-As seguintes APIs de terceiros foram usadas para criar respostas da API de <strong>Weather Forecast</strong>:
+<p>As seguintes APIs de terceiros foram usadas para criar respostas da API de <strong>Weather Forecast</strong>:</p>
 <ul>
     <li><a href="https://openweathermap.org/">Open Weather Map</a> para dados climáticos</li>
     <li><a href="https://locationiq.com/">LocationIQ</a> para o <em>reverse geolocation</em></li>
@@ -286,7 +292,7 @@ As seguintes APIs de terceiros foram usadas para criar respostas da API de <stro
 
 <h3 id="technologies-back-br">🔨 Tecnologias</h3>
 
-As seguintes tecnologias foram utilizadas para desenvolver o sevidor de <strong>Weather Forecast</strong>:
+<p>As seguintes tecnologias foram utilizadas para desenvolver o sevidor de <strong>Weather Forecast</strong>:</p>
 <ul>
     <li><a href="https://www.npmjs.com/package/cors">Cors</a></li>
     <li><a href="https://www.npmjs.com/package/express">Express</a></li>
@@ -295,7 +301,7 @@ As seguintes tecnologias foram utilizadas para desenvolver o sevidor de <strong>
 
 <h2 id="database-br">Banco de Dados</h2>
 
-O banco de dados escolhido para desenvolver MWG foi o <a href="https://www.mysql.com">MySql</a>. Veja a seguir uma breve descrição de suas tabelas:
+<p>O banco de dados escolhido para desenvolver MWG foi o <a href="https://www.mysql.com">MySql</a>. Veja a seguir uma breve descrição de suas tabelas:</p>
 <ul>
     <li><strong>tbexercise:</strong> armazena uma vasta gama de exercícios;</li>
     <li><strong>tbgroup:</strong> armazena as divisões musculares;</li>
@@ -307,7 +313,7 @@ O banco de dados escolhido para desenvolver MWG foi o <a href="https://www.mysql
 
 <h3 id="how-to-set-up-br">❓ Como configurar</h3>
 
-Se você deseja fazer um <em>fork</em> deste projeto, você precisará configurar as seguintes variáveis de ambiente:
+<p>Se você deseja fazer um <em>fork</em> deste projeto, você precisará configurar as seguintes variáveis de ambiente:</p>
 
 <h4 id="client-side-">Client-side:</h4>
 
@@ -326,7 +332,7 @@ Se você deseja fazer um <em>fork</em> deste projeto, você precisará configura
 
 <p>Weather Forecast foi inspirado pelos seguintes projetos do Figma:</p>
 <ul>
-    <li><a href="https://www.figma.com/community/file/955978734883254712">Weather Icons | Flat &amp; Outline</a></li>
+    <li><a href="https://www.figma.com/community/file/955978734883254712">Weather Icons | Flat Outline</a></li>
     <li><a href="https://www.figma.com/file/fXpD0piPYygazRk9mAXQH9/Weather-Forecast-App-(Community)">Weather Forecast App</a></li>
 </ul>
 
